@@ -2,7 +2,7 @@
   position: absolute;
   top: 20%;
   right: 5px;
-  width: 1.4rem;
+  width: 2rem;
   height: 70%;
   background-color: inherit;
   border: none;
@@ -13,7 +13,7 @@
 .converter__field_button::after {
   position: absolute;
   content: "";
-  bottom: 0px;
+  bottom: 4px;
   right: 0px;
   background-image: url(../../svg/dawn_arrow_grey.svg);
   background-size: cover;

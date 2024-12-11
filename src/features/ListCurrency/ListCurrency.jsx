@@ -13,7 +13,7 @@ export default function ListCurrency(props) {
     const listEl = document.querySelector(".converter__list.active");
     if (listEl) {
       if (rootEl.offsetHeight < listEl.getBoundingClientRect().bottom) {
-        rootEl.style.height = listEl.getBoundingClientRect().bottom + "px";
+        rootEl.style.height = listEl.getBoundingClientRect().bottom + window.scrollY + "px";
       }
     } else {
       rootEl.style.height = "auto";
